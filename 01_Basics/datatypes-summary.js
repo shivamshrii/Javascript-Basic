@@ -1,3 +1,4 @@
+/*
 // #Primitive Data Types
 
 // 7 Types Of : String , Number, Boolean, null, undefined, Symbol, BigInt
@@ -17,6 +18,9 @@ console.log(id === anotherId);
 //const bigNumber = 234567990999999n
 
 
+// #Refrence Type(Non Primitive)
+
+// Array, Objects, Functions
 const heros = ["shivam", "Shiva", "hanuman"]
 let myObj = {
     name: "raja",
@@ -32,9 +36,31 @@ console.log(typeof(bigNumber));
 console.log(typeof(outsideTemp));
 console.log(typeof(myFunction));
 console.log(typeof(heros));
+*/
 
 
+//++++++++++++++++++++++++++++++++++++++
 
-// #Refrence Type(Non Primitive)
+//Types Of Memory
+// Stack(Used in Primitive ), Heap(Non-Primitive)
 
-// Array, Objects, Functions
+let myYoutubename = "shiva"
+
+let anothername = myYoutubename
+anothername = "shivay"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email:"shivam@gmail.com",
+    upi :"user@sbi"
+}
+
+let userTwo = userOne
+
+userTwo.email = "meshivamshri@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
