@@ -29,3 +29,29 @@ function userLoginMessage(username){
 }
 // console.log(userLoginMessage("shivam"))
 
+function calculateCartPrice(...num1){
+    return num1
+}
+// console.log(calculateCartPrice(200, 400, 500, 2000))
+
+const user = {
+    username: "Shivay",
+    price: 5000
+
+}
+
+function handleObject(anyObject){
+    console.log('usename is ${anyObject.usename} and price is ${anyObject.price}');
+    
+}
+handleObject(user)
+
+
+const myNewArray = [100, 200, 300, 400]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+// console.log(returnSecondValue(myNewArray));
+// console.log(returnSecondValue([100, 200, 300, 400]));
+
